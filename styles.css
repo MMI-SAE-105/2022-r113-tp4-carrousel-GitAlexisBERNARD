@@ -1,0 +1,62 @@
+/*x100% 100% 100% 0 auto border-box box-sizing 
+display height flex flex none margin 
+max-width width width
+*/
+* {
+    /* change le box model */
+    }
+    img {
+      width: auto;
+      height: auto;
+        /* image r
+      esponsive, largeur maxi */
+      /* hauteur "auto" */
+    }
+    .carrousel_parent-ecrans {
+        display: flex;
+        gap: 1em;
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+        width: 100%;
+
+        
+      /* aligne horizontalement les enfants */
+      /* largeur du parent */
+    
+    }
+    .carrousel_ecran {
+        width: 100%;
+        scroll-snap-align: start;
+ 
+      /* largeur du parent pour chaque enfant */
+      /* permet de garder toute la largeur du parent */
+    }
+    .carrousel_ecran figure {
+        margin: 0;
+      /* enlève les marges par défaut */
+    }
+    .carrousel {
+        position: relative;
+      }
+      
+      .carrousel_btn {
+        position: absolute;
+        top: 50%; /* centre verticalement */
+        transform: translateY(-50%); /* methode du point nort */
+        width: 2rem;
+        height: 2rem;
+        background: rgba(0,0,0,0.5);
+        border-radius: 50%;
+        border: none;
+        display: grid;
+        place-content: center;
+        color: #fff;
+      }
+      
+      .carrousel_btn-avant {
+        left: 0;
+      }
+      
+      .carrousel_btn-apres {
+        right: 0;
+      }
