@@ -19,6 +19,7 @@ max-width width width
         overflow-x: scroll;
         width: 100%;
 
+
         
       /* aligne horizontalement les enfants */
       /* largeur du parent */
@@ -71,4 +72,7 @@ max-width width width
         padding : 0px ; /* enlève les padding par défaut */
         list-style-type : none; /* enlève les puces par défaut */
         gap : 1em ; /* espace entre les enfants */
+      }
+      .actif{
+        color: red  ;
       }
