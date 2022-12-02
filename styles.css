@@ -6,7 +6,7 @@ max-width width width
     /* change le box model */
     }
     img {
-      width: auto;
+      max-width: 100%;
       height: auto;
         /* image r
       esponsive, largeur maxi */
