@@ -74,5 +74,5 @@ max-width width width
         gap : 1em ; /* espace entre les enfants */
       }
       .actif{
-        color: red  ;
+        background-color: blue;
       }
